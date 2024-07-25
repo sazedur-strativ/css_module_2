@@ -3,13 +3,30 @@ em {
   border: 1px solid red;
 }
 section {
-  width: 500px;
-}
-.box {
   width: 100%;
+}
+/* Padding */
+.boxes {
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 30px;
   padding-bottom: 50px;
-  border: 4px solid;
+  border: 4px solid green;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  border: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box.box-one {
+  border-color: red;
+}
+.box.box-two {
+  border-color: green;
+}
+.box.box-three {
+  border-color: aqua;
 }

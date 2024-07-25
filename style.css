@@ -23,9 +23,12 @@ section {
 }
 .box.box-one {
   border-color: red;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .box.box-two {
   border-color: green;
+  margin-top: 50px;
 }
 .box.box-three {
   border-color: aqua;
